@@ -6,7 +6,7 @@ const getAll = async (req, res) => {
     result.toArray().then((users) => {
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(users);
-    })
+    });
 };
 
 const getSingle = async (req, res) => {
@@ -15,7 +15,7 @@ const getSingle = async (req, res) => {
     result.toArray().then((users) => {
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(users[0]);
-    })
+    });
 };
 
 module.exports = {
