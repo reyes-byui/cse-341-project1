@@ -1,27 +1,27 @@
 GET https://cse-341-project1-b4e1.onrender.com/users
 
 ###
-GET http://localhost:3000
+GET http://localhost:3001
 
 ###
-GET http://localhost:3000/users
+GET http://localhost:3001/users
 
 ###
-GET http://localhost:3000/users/67db1784bbcee039ccd2fc8b
+GET http://localhost:3001/users/67db1784bbcee039ccd2fc8b
 
 ### create new user
-POST http://localhost:3000/users HTTP/1.1
+POST http://localhost:3001/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "nikki@test.mail",
-    "username": "nikki",
-    "name": "Tita Nikki",
+    "email": "heidinmoses@test.mail",
+    "username": "heidinmoses",
+    "name": "Heidi Moses",
     "ipaddress": "192.0.168.0000"
 }
 
 ### update user
-PUT http://localhost:3000/users/67db1784bbcee039ccd2fc8b HTTP/1.1
+PUT http://localhost:3001/users/67db1784bbcee039ccd2fc8b HTTP/1.1
 Content-Type: application/json
 
 {
@@ -32,4 +32,4 @@ Content-Type: application/json
 }
 
 ### delete user
-DELETE http://localhost:3000/users/67db27a346c56fe064440234 HTTP/1.1
+DELETE http://localhost:3001/users/67db27a346c56fe064440234 HTTP/1.1
