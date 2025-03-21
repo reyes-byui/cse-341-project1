@@ -51,16 +51,19 @@
             "schema": {
               "type": "object",
               "properties": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
+                  "example": "any"
+                },
                 "email": {
                   "example": "any"
                 },
-                "username": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "name": {
-                  "example": "any"
-                },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -68,8 +71,8 @@
           }
         ],
         "responses": {
-          "204": {
-            "description": "No Content"
+          "201": {
+            "description": "Created"
           },
           "500": {
             "description": "Internal Server Error"
@@ -118,16 +121,19 @@
             "schema": {
               "type": "object",
               "properties": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
+                  "example": "any"
+                },
                 "email": {
                   "example": "any"
                 },
-                "username": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "name": {
-                  "example": "any"
-                },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
